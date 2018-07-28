@@ -1,0 +1,115 @@
+body{
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    padding: 0 60px;
+    background: linear-gradient(132deg, #e2189581, #c90b8a);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 10s ease infinite;}
+    @keyframes BackgroundGradient {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+       }
+
+
+.nav-bloc{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.logo-landbot{
+    background: url(https://storage.googleapis.com/landbot.io/misc/new/logo.svg) no-repeat 0 60%;
+    color: transparent;
+    padding-right: 30px;
+    flex-grow: 3;
+}
+
+
+.login-landbot{
+padding: 12px 13px;
+border-radius: 100px;
+margin-left: 4px;
+white-space: nowrap;
+text-decoration: none;
+margin-right: 3px;
+background: transparent;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+flex-grow: 0;
+}
+
+
+.signup-landbot{
+    padding: 12px 13px;
+    border-radius: 70px;
+    margin-left: 4px;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-right: 3px;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid white;
+    flex-grow: 0.1;
+    }
+
+
+    .butt-hover:hover{
+        background: #ef0075;
+        border: 2px solid white;
+    }
+
+main{
+    margin-left: 400px;
+}   
+
+.nav-text{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 19px;
+}
+
+.butt{
+    background-color: #ef0075;
+    box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
+    border-color: rgb(188, 0, 68);
+    color: rgb(255, 255, 255);
+    letter-spacing: -.5px;
+margin-right: 6px;
+margin-bottom: 6px;
+cursor: pointer;
+padding: 20px 25px;
+border-width: 2px;
+border-style: solid;
+box-sizing: border-box;
+width: 250px; 
+}
+
+.button:hover{
+    background-color: rgb(255, 30, 148);
+}
+
+.textarea{
+    height: 50px;
+    width: 500px;
+}
+
+
+.footer{
+    margin-left: 400px;
+}
+
+.chatbox{
+    margin-top: 15px;   
+    box-sizing: border-box; 
+    background-color: rgb(255, 255, 255);
+    width: 500px; height: auto; 
+    border-radius: 21px;
+    padding: 20px 20px; 
+    margin-bottom: 20px;
+}
